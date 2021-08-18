@@ -1,0 +1,61 @@
+.container-buttons {
+    margin-top: 25px; 
+    margin-inline: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-buttons > .btn-default {
+    padding: 5px;
+    width: 31px;
+    height: 31px;
+    font-weight: bold;
+}
+
+.container-buttons > .btn-default {
+    padding: 5px;
+    width: 31px;
+    height: 31px;
+    font-weight: bold;
+}
+
+.container-buttons > .button-left {
+    margin-right: 5px;
+}
+
+.container-buttons > .button-right {
+    margin-left: 5px;
+}
+
+.container-input-search > input {
+    max-width: 300px;
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+.inner-addon .fa-search {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  top: 1px;
+  opacity: 50%;
+}
+
+.inner-addon > input {
+    max-width: 300px;
+}
+
+.left-addon .fa-search  { left:  0px;}
+.right-addon .fa-search { right: 0px;}
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.card-element {
+    transform: translate(0px, 20px);
+    opacity: 0;
+    visibility: hidden;
+}

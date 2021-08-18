@@ -1,0 +1,18 @@
+.container-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.btn-reg {
+    width: fit-content;
+}
+
+.center-option {
+    display: flex;
+    justify-content: center;
+    margin-block: 10px;
+    height: fit-content;
+}

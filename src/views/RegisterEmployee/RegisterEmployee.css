@@ -1,0 +1,50 @@
+.register-left {
+    text-align: center;
+    color: #000;
+}
+
+.register-left img {
+    color: #000;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.register-right {
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(50%, 0px);
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+
+.fade {
+    transition: opacity .15s linear;
+}
+
+.register-heading {
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px 3px 5px 3px!important;
+    margin-bottom: 30px!important;
+    color: #000!important;
+}
+
+.react-datepicker-wrapper {
+    width: -webkit-fill-available;
+}
+
+@media (max-width: 768px){
+    .register-right {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        transform: translate(0px, 0px);
+    }
+
+    .register-left img {
+        margin-top: unset;
+    }
+}

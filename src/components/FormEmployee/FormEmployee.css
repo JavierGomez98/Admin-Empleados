@@ -1,0 +1,36 @@
+.employee-form {
+    padding-inline: 50px;
+}
+
+.span-input {
+    display: block;
+    margin-left: 2px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-upper {
+    text-transform: uppercase;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.danger-input {
+  border-color: #ea4a4a;
+}
+
+.alert-input {    
+  font-size: 13px;
+  color: #ea4a4a;
+  font-weight: bold;
+  cursor: default;
+  margin-right: 5px; 
+  display: none;
+}
+
+.show-alert-input {    
+  display: block;
+}
